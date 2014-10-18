@@ -1,6 +1,4 @@
 
-package percent;
-
-public aspect HoursComplete {
+public aspect PercentComplete {
 	// TODO Auto-generated aspect
 }
