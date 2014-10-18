@@ -32,17 +32,17 @@ public class GeneralTask {
 	
 	public static void main(String[] args) {		
 		GeneralTask t = new GeneralTask(12);
-		t.getStatus();
+		System.out.println("Status #0: " + t.getStatus());
 		t.trackActivity(5); 
-		t.getStatus();
+		System.out.println("Status #1: " + t.getStatus());
 		t.trackActivity(7);
-		t.getStatus();
+		System.out.println("Status #2: " + t.getStatus());
 		t.trackActivity(2);
-		t.getStatus();
+		System.out.println("Status #3: " + t.getStatus());
 		t.trackActivity(0);
-		t.getStatus();
+		System.out.println("Status #4: " + t.getStatus());
 		t.trackActivity(12);
-		t.getStatus();
+		System.out.println("Status #5: " + t.getStatus());
 	}
 
 }
