@@ -35,14 +35,15 @@ public class GeneralTask {
 		System.out.println("Status #0: " + t.getStatus());
 		t.trackActivity(5); 
 		System.out.println("Status #1: " + t.getStatus());
-		t.trackActivity(7);
 		System.out.println("Status #2: " + t.getStatus());
-		t.trackActivity(2);
+		t.trackActivity(7);
 		System.out.println("Status #3: " + t.getStatus());
-		t.trackActivity(0);
+		t.trackActivity(2);
 		System.out.println("Status #4: " + t.getStatus());
-		t.trackActivity(12);
+		t.trackActivity(0);
 		System.out.println("Status #5: " + t.getStatus());
+		t.trackActivity(12);
+		System.out.println("Status #6: " + t.getStatus());
 	}
 
 }
