@@ -9,7 +9,7 @@ public aspect WaitingDays {
 	private static final int MAX_SLEEP = 1500;
 	
 	String around(GeneralTask t) : target(t) && call(String GeneralTask.getStatus())  {
-		// Add a random amount of waiting before the status is queried.
+		// Add a random amount of waiting before the status is queried to simulate time passing.
 		try {
 			Thread.sleep(random.nextInt() % MAX_SLEEP);
 		} 
