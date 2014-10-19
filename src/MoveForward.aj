@@ -1,8 +1,8 @@
 
 // This class sets the data?
 
-
 public aspect MoveForward {
+	
     // Introductions
 	private static final String[] GeneralTask.STATES = {"Backlog", "Requested", "In Progress", "Done"};
 	
