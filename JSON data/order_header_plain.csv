@@ -1,0 +1,9 @@
+orderID,orderDate,customer.customerID,customer.customerName,customer.customerContact,customer.address,customer.city,customer.postalCode,customer.country,
+employee.employeeID,employee.lastName,employee.firstName,employee.birthDate,employee.photo,employee.notes,
+shipper.shipperID,shipper.shipperName,shipper.phone,
+orderDetails[1].orderDetailID,
+    orderDetails[1].product.productID,orderDetails[1].product.productName,
+        orderDetails[1].product.supplier.supplierID,orderDetails[1].product.supplier.supplierName,orderDetails[1].product.supplier.contactName,orderDetails[1].product.supplier.address,orderDetails[1].product.supplier.city,orderDetails[1].product.supplier.postalCode,orderDetails[1].product.supplier.country,orderDetails[1].product.supplier.phone,
+        orderDetails[1].product.category.categoryID,orderDetails[1].product.category.categoryname,orderDetails[1].product.category.description,
+    orderDetails[1].product.unit,orderDetails[1].product.price,
+orderDetails[1].quantity
