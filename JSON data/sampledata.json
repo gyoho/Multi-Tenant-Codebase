@@ -1,0 +1,51 @@
+{
+    "orderID": 10249,
+    "orderDate": "1996-07-05 00:00:00",
+    "customer": {
+        "customerID": 81,
+        "customerName": "Tradição Hipermercados",
+        "customerContact": "Anabela Domingues",
+        "address": "Av. Inês de Castro, 414",
+        "city": "São Paulo",
+        "postalCode": "05634-030",
+        "country": "Brazil"
+    },
+    "employee": {
+        "employeeID": 6,
+        "lastName": "Suyama",
+        "firstName": "Michael",
+        "birthDate": "1963-07-02",
+        "photo": "...",
+        "notes": "Michael is a graduate of Sussex University (MA, economics) and the University of California at Los Angeles (MBA, marketing). He has also taken the courses 'Multi-Cultural Selling' and 'Time Management for the Sales Professional'. He is fluent in Japanese and can read and write French, Portuguese, and Spanish."
+    },
+    "shipper": {
+        "shipperID": 1,
+        "shipperName": "Speedy Express",
+        "phone": "(503) 555-9831"
+    },
+    "orderDetails": [{
+        "orderDetailID": 5,
+        "product": {
+            "productID": 51,
+            "productName": "Manjimup Dried Apples",
+            "supplier": {
+                "supplierID": 24,
+                "supplierName": "G'day, Mate",
+                "contactName": "Wendy Mackenzie",
+                "address": "170 Prince Edward Parade Hunter's Hill",
+                "city": "Sydney",
+                "postalCode": 2042,
+                "country": "Australia",
+                "phone": "(02) 555-5914"
+            },
+            "category": {
+                "categoryID": 7,
+                "categoryname": "Produce",
+                "description": "Dried fruit and bean curd"
+            },
+            "unit": "50 - 300 g pkgs.",
+            "price": 53
+        },
+        "quantity": 40
+    }]
+}
